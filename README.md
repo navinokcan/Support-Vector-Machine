@@ -121,7 +121,7 @@ I checked this numerically with `shadow_prices()`. It re-solves the SVM with eac
 
 <p align="center"><img src="figures/shadow_prices.png" width="440" alt="Solver multipliers plotted against finite-difference shadow prices for all 150 points; every point lies on the diagonal."></p>
 
-Building this showed me how much of the maths I had learnt in economics carries over to machine learning.
+Building this showed me how much of the maths I had learnt in economics carries over to machine learning because one part of the math also uses the envelope theorem which I learnt in my first year mathematics module.
 
 ## Comparing with scikit-learn
 
