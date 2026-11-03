@@ -2,7 +2,7 @@
 
 This is a support vector machine that I built from scratch in NumPy as a side project. I had learnt how SVMs work in theory and had studied the Karush-Kuhn-Tucker (KKT) conditions in economics, so I wanted to learn by doing and build one where the KKT conditions do the work.
 
-The solver uses the KKT conditions to pick which two multipliers to update at each step and to decide when to stop. Complementary slackness then sorts the points into support vectors and the rest. I also checked numerically that each multiplier is the shadow price of its point's margin constraint, which is how economics reads a Lagrange multiplier.
+The solver uses the KKT conditions to pick which two multipliers to update at each step and to decide when to stop. Complementary slackness then sorts the points into support vectors and the rest. I also checked numerically that each multiplier is the shadow price of its point's margin constraint, which is how I learnt in my Microecon module that economics reads a Lagrange multiplier.
 
 I tested it on five benchmark datasets, and it makes the same predictions and finds the same support vectors as scikit-learn's `SVC` (which runs LIBSVM).
 
